@@ -1,0 +1,49 @@
+:root {
+  --gray1: #f2f2f2;
+  --gray2: #d9d9d9;
+  --gray3: #808080;
+  --gray4: #333333;
+  --gray5: #262626;
+  --gray6: #1a1a1a;
+  --gray7: #0d0d0d;
+
+  --blue1: #029b99;
+  --blue2: #001f21;
+  --bege: #ebe7b7;
+  --orange: #de4f15;
+  --yellow: #ecc039;
+
+  --green1: #008000;
+  --green2: #0f6a08;
+
+  --red1: #8b0000;
+  --red2: #740a01;
+}
+
+:focus {
+  outline: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body,
+input,
+button,
+select {
+  font-size: 1rem;
+}
+
+input, button, select {
+  border: 1px solid var(--yellow);
+}
+
+body {
+  background: url("https://www.enwallpaper.com/wp-content/uploads/2021/02/thumb-1920-548142.jpg") center center no-repeat fixed;
+  background-size: cover;
+  color: #fff;
+}
